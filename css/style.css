@@ -116,10 +116,14 @@ main #right #expirience h2 {
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
-main #right #expirience p {
+main #right #expirience ul {
   color: rgb(117, 122, 131);
   font-size: 0.9em;
   margin-bottom: 60px;
+  margin-left: 15px;
+}
+main #right #expirience ul li {
+  margin-bottom: 5px;
 }
 main #right #social h2 {
   color: rgb(117, 122, 131);

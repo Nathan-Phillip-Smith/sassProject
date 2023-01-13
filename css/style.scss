@@ -91,8 +91,12 @@ main {
             h2 {
                 @include content-h2;
             }
-            p {
+            ul {
                 @include content-p;
+                margin-left: 15px;
+                li {
+                    margin-bottom: 5px;
+                }
             }
         }
         #social {
@@ -100,7 +104,7 @@ main {
                 @include content-h2;
             }
             ul {
-                @include content-p;
+                @include content-ul;
                 margin-left: 15px;
                 li {
                     margin-bottom: 5px;
