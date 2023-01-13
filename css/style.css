@@ -5,25 +5,31 @@
   font-family: sans-serif;
 }
 
-header {
+a {
+  color: rgb(117, 122, 131);
+}
+
+a:hover {
+  color: rgb(132, 153, 137);
+}
+
+header, footer {
   background-color: rgb(132, 153, 137);
-  height: 15rem;
   display: flex;
   align-items: center;
   padding: 40px;
 }
-header #name {
+header #name, footer #name {
   color: white;
 }
-header #name h1 {
+header #name h1, footer #name h1 {
   font-weight: 600;
   letter-spacing: 0.1em;
   font-size: 2.5em;
 }
-header #name h2 {
+header #name h2, footer #name h2 {
   font-weight: 100;
   font-size: 1.2em;
-  margin-bottom: 50px;
 }
 
 main {
@@ -47,6 +53,9 @@ main #left #skills ul {
   font-size: 0.9em;
   margin-bottom: 60px;
   margin-left: 15px;
+}
+main #left #skills ul li {
+  margin-bottom: 5px;
 }
 main #left #contact h2 {
   color: rgb(117, 122, 131);
@@ -72,10 +81,14 @@ main #left #education h2 {
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
-main #left #education div {
+main #left #education ul {
   color: rgb(117, 122, 131);
   font-size: 0.9em;
   margin-bottom: 60px;
+  margin-left: 15px;
+}
+main #left #education ul li {
+  margin-bottom: 5px;
 }
 main #right {
   background-color: rgb(227, 227, 227);
@@ -116,8 +129,12 @@ main #right #social h2 {
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
-main #right #social div {
+main #right #social ul {
   color: rgb(117, 122, 131);
   font-size: 0.9em;
   margin-bottom: 60px;
+  margin-left: 15px;
+}
+main #right #social ul li {
+  margin-bottom: 5px;
 }/*# sourceMappingURL=style.css.map */

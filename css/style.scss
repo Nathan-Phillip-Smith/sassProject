@@ -7,9 +7,15 @@
     box-sizing: border-box;
     font-family: $fonts;
 }
+a {
+    color: $color2
+}
+a:hover {
+    color: $color1;
+}
+
 header {
     background-color: $color1;
-    height: 15rem;
     display: flex;
     align-items: center;
     padding: $mainPadding;
@@ -23,7 +29,6 @@ header {
         h2 {
             font-weight: 100;
             font-size: 1.2em;
-            margin-bottom: 50px;
         }
     }
 }
@@ -40,6 +45,9 @@ main {
         ul {
                 @include content-p;
                 margin-left: 15px;
+                li {
+                    margin-bottom: 5px;
+                }
             }
         }
         #contact {
@@ -58,8 +66,12 @@ main {
             h2 {
                 @include content-h2;
             }
-            div {
+            ul {
                 @include content-p;
+                margin-left: 15px;
+                li {
+                    margin-bottom: 5px;
+                }
             }
         }
     }
@@ -85,13 +97,20 @@ main {
         }
         #social {
             h2 {
-                @include content-h2
+                @include content-h2;
             }
-            div {
-                @include content-p
+            ul {
+                @include content-p;
+                margin-left: 15px;
+                li {
+                    margin-bottom: 5px;
+                }
             }
         }
     
     }
+}
+footer {
+    @extend header;
 }
 
