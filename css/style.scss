@@ -1,0 +1,97 @@
+@import 'variables';
+@import 'mixins';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $fonts;
+}
+header {
+    background-color: $color1;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    padding: $mainPadding;
+    #name {
+        color: $color3;
+        h1 {
+            font-weight: 600;
+            letter-spacing: .1em;
+            font-size: 2.5em;
+        }
+        h2 {
+            font-weight: 100;
+            font-size: 1.2em;
+            margin-bottom: 50px;
+        }
+    }
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    #left {
+        width: 33%;
+        padding: $mainPadding;
+        #skills {
+            h2 {
+                @include content-h2;
+            }
+        ul {
+                @include content-p;
+                margin-left: 15px;
+            }
+        }
+        #contact {
+            h2 {
+                @include content-h2;
+            }
+            div {
+                @include content-p;
+
+                .shift {
+                    padding-left: 17px;
+                }
+            }
+        }
+        #education {
+            h2 {
+                @include content-h2;
+            }
+            div {
+                @include content-p;
+            }
+        }
+    }
+    #right {
+        background-color: rgb(227, 227, 227);
+        width: 66%;
+        padding: $mainPadding;
+        #summary {
+            h2 {
+                @include content-h2;
+            }
+            p {
+                @include content-ul;
+            }
+        }
+        #expirience {
+            h2 {
+                @include content-h2;
+            }
+            p {
+                @include content-p;
+            }
+        }
+        #social {
+            h2 {
+                @include content-h2
+            }
+            div {
+                @include content-p
+            }
+        }
+    
+    }
+}
+

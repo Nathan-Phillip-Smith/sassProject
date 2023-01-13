@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: rgb(132, 153, 137);
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+header #name {
+  color: white;
+}
+header #name h1 {
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  font-size: 2.5em;
+}
+header #name h2 {
+  font-weight: 100;
+  font-size: 1.2em;
+  margin-bottom: 50px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+main #left {
+  width: 33%;
+  padding: 40px;
+}
+main #left #skills h2 {
+  color: rgb(117, 122, 131);
+  border-bottom: 4px solid rgb(117, 122, 131);
+  width: 60px;
+  font-weight: 300;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+main #left #skills ul {
+  color: rgb(117, 122, 131);
+  font-size: 0.9em;
+  margin-bottom: 60px;
+  margin-left: 15px;
+}
+main #left #contact h2 {
+  color: rgb(117, 122, 131);
+  border-bottom: 4px solid rgb(117, 122, 131);
+  width: 60px;
+  font-weight: 300;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+main #left #contact div {
+  color: rgb(117, 122, 131);
+  font-size: 0.9em;
+  margin-bottom: 60px;
+}
+main #left #contact div .shift {
+  padding-left: 17px;
+}
+main #left #education h2 {
+  color: rgb(117, 122, 131);
+  border-bottom: 4px solid rgb(117, 122, 131);
+  width: 60px;
+  font-weight: 300;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+main #left #education div {
+  color: rgb(117, 122, 131);
+  font-size: 0.9em;
+  margin-bottom: 60px;
+}
+main #right {
+  background-color: rgb(227, 227, 227);
+  width: 66%;
+  padding: 40px;
+}
+main #right #summary h2 {
+  color: rgb(117, 122, 131);
+  border-bottom: 4px solid rgb(117, 122, 131);
+  width: 60px;
+  font-weight: 300;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+main #right #summary p {
+  color: rgb(117, 122, 131);
+  font-size: 0.9em;
+  margin-bottom: 60px;
+}
+main #right #expirience h2 {
+  color: rgb(117, 122, 131);
+  border-bottom: 4px solid rgb(117, 122, 131);
+  width: 60px;
+  font-weight: 300;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+main #right #expirience p {
+  color: rgb(117, 122, 131);
+  font-size: 0.9em;
+  margin-bottom: 60px;
+}
+main #right #social h2 {
+  color: rgb(117, 122, 131);
+  border-bottom: 4px solid rgb(117, 122, 131);
+  width: 60px;
+  font-weight: 300;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+main #right #social div {
+  color: rgb(117, 122, 131);
+  font-size: 0.9em;
+  margin-bottom: 60px;
+}/*# sourceMappingURL=style.css.map */
